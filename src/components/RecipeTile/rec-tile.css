@@ -1,0 +1,21 @@
+.recipeTile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .recipeTile__img {
+    height: 200px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .recipeTile__name {
+    color: gainsboro;
+    max-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+  }

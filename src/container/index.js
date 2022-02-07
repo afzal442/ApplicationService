@@ -5,6 +5,7 @@ import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import SpecialMenu from './Menu/SpecialMenu';
+import FoodRecipe from './FoodRecipe/FoodRecipe';
 
 export {
   AboutUs,
@@ -14,4 +15,5 @@ export {
   Gallery,
   Header,
   SpecialMenu,
+  FoodRecipe,
 };
