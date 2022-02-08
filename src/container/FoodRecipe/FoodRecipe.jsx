@@ -15,7 +15,7 @@ function FoodRecipe() {
   const getRecipeInfo = async () => {
     var result = await Axios.get(url);
     setrecipes(result.data.hits);
-    console.log(result.data.hits);
+    // console.log(result.data.hits);
   };
 
   const onSubmit = (e) => {
@@ -25,12 +25,12 @@ function FoodRecipe() {
 
   return (
     <div className="app">
-      <h1 onClick={getRecipeInfo}>Food Recipe Plaza 🍔</h1>
+      <h1 onClick={getRecipeInfo}>Food  Plaza 🍔</h1>
       <form className="app__searchForm" onSubmit={onSubmit}>
         <input
           className="app__input"
           type="text"
-          placeholder="Enter your favorite ingridient"
+          placeholder="Enter your favorite food item"
           autoComplete="Off"
           value={query}
           onChange={(e) => setquery(e.target.value)}

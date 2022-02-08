@@ -15,6 +15,7 @@ const Footer = () => (
         <p className="p__opensans">Plot-456, Mumbai, MI 500673, IND</p>
         <p className="p__opensans">+33 212-344-1230</p>
         <p className="p__opensans">+33 212-555-1230</p>
+        <p style={{ color: "whitesmoke" }}>email: customserv@tajrestaurant.com</p>
       </div>
 
       <div className="app__footer-links_logo">

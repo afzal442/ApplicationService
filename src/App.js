@@ -4,9 +4,11 @@ import {
   Route,
   Routes as Routing,
 } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, SpecialMenu, FoodRecipe } from './container';
 import { Navbar } from './components';
 import './App.css';
+// import BookOrder from './components/BookOrder/BookOrder';
 
 const App = () => {
   return (
@@ -32,6 +34,12 @@ const App = () => {
           <Route exact path="/menu" element={<SpecialMenu />} />
         </Routing>
       </Router>
+      {/* <Router>
+        <Routing>
+          <Route exact path="/bookyourorder" element={ <OrderList />} />
+        </Routing>
+      </Router> */}
+      {/* <BookOrder /> */}
       <Chef />
       <Gallery />
       <FindUs />
