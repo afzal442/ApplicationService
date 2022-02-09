@@ -55,4 +55,4 @@ const bevearage = [
   },
 ];
 
-export default (foodItems, bevearage) ;
+export default {foodItems, bevearage} ;
