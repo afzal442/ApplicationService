@@ -1,3 +1,4 @@
+/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 const foodItems = [
   {
     title: 'Hyderabadi Chicken Biriyani',
@@ -54,4 +55,4 @@ const bevearage = [
   },
 ];
 
-export default { foodItems, bevearage };
+export default (foodItems, bevearage) ;
