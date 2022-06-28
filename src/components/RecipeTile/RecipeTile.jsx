@@ -3,8 +3,9 @@ import "./rec-tile.css";
 import { v4 as uuidv4 } from "uuid";
 
 export default function RecipeTile({ recipe }) {
+  // console.log(recipe["recipe"]["image"].match(/\.(jpeg|jpg|gif|png)$/));
   return (
-    recipe["recipe"]["image"].match(/\.(jpeg|jpg|gif|png)$/) != null && (
+    recipe["recipe"]["image"] != null && (
       <div
         className="recipeTile"
       >
