@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: restuarant-service
+  namespace: clh
+  labels:
+    app: restuarant-app
+spec:
+  type: LoadBalancer
+  selector:
+    app: restuarant-app
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 80
+  sessionAffinity: None
