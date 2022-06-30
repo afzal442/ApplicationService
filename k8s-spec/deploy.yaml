@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: restuarant-app
-        image: afzal442/restaurant-app:v3
+        image: afzal442/restaurant-app:v5
         ports:
         - containerPort: 80
