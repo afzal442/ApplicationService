@@ -1,34 +1,19 @@
 apiVersion: networking.k8s.io/v1
-
 kind: Ingress
-
 metadata:
-
   name: res-ingress
-
   annotations:
-    kubernetes.io/ingress.class: "nginx"
     nginx.ingress.kubernetes.io/rewrite-target: /
-
 spec:
-
   ingressClassName: nginx
-
   rules:
     - host: myres-svc.172.105.45.105.nip.io
       http:
-
         paths:
-
-        - path: /
-          pathType: Prefix
-
-          backend:
-
-            service:
-
-              name: restuarant-service
-
-              port:
-
-                number: 80
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: restuarant-service
+                port:
+                  number: 80
