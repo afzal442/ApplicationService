@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: restuarant-deploy
-  namespace: clh
+  namespace: myc
   labels:
     app: restuarant-app
 spec:
