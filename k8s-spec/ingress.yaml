@@ -8,8 +8,8 @@ spec:
     - host: myres-svc.172.105.45.105.nip.io
       http:
         paths:
-          - path: /
-            pathType: Prefix
+          - pathType: Prefix
+            path: "/v1"     
             backend:
               service:
                 name: restuarant-service
