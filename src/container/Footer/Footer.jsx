@@ -39,7 +39,8 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2022 Taj Mahal. All Rights reserved.</p>
+      <p className="p__opensans">2022 <b style={{ color: "yellow", fontSize: "1rem" }}>Taj Mahal Restaurant</b> All Rights reserved.</p>
+      <p className='p__opensans'>Made with <b style={{ color: "darkgreen", fontSize: "1.5rem" }}>Linode</b> ❤️ <b style={{ color: "blue", fontSize: "1.5rem" }}>Hashnode</b></p>
     </div>
 
   </div>
