@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: res-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: myres-svc.172.105.44.234.nip.io
+      http:
+        paths:
+          - pathType: Prefix
+            path: /    
+            backend:
+              service:
+                name: restuarant-service
+                port:
+                  number: 80
