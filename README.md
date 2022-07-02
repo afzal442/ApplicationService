@@ -3,7 +3,8 @@ This contains Web App for Taj Mahal Restaurant service. **Restaurant App** which
 This app also has other feature that allow you to view the items on different categories using the search bar, choose the items and buy it based on the availability.
 
 ## 🔥 Inspiration !
-Inspired by the Kubernetes and DevOps tool i.e. Linode Kubernetes Engine(LKE) and CD pipeline provided by ArgoCD tool, and then decided to create a web application on top of this tool deploying to LKE cluster.
+With themes related to open-source project using **Linode** and the environment in general, deploying an app to [Linode Kubernets](https://cloud.linode.com/linodes) cluster and leveraging [ArgoCD](https://argo-cd.readthedocs.io/) came to my mind. Although they are typically exciting road trips, sometimes there are moments when you aren't sure what to do and need some inspiration.
+Inspired by the Kubernetes and DevOps tool i.e. [Linode Kubernetes Engine](https://cloud.linode.com/linodes)(LKE), Nginx Ingress Controller and CD pipeline provided by [ArgoCD](https://argo-cd.readthedocs.io/) tool, and became excited to create a web application on top of this tool deploying to LKE cluster.
 
 ## 🤔How we built it?
 Frontend built using React and Bootstrap CSS, deployed to LKE Cluster, Overpass for querying food item API (currently) Two stages docker images built under the hood of yarn install and nginx server CD pipeline using ArgoCD platform.
@@ -27,7 +28,7 @@ I will try to make my project more user-friendly and include more resources in a
 
 The experience with the Linode platform is amazing when you first deploy your app and configure the kubernetes engine. Even you can make use of the marketplace features and their own CLI tool to configure clusters, nodes, etc. 
 
-## Linode x Hashnode
+## Acknowledged by [Linode x Hashnode Hackathon](https://townhall.hashnode.com/build-with-linode-hackathon-june-2022?source=tw0622)
 ![h5](https://user-images.githubusercontent.com/11625672/176758109-809da639-5f9a-484a-bb6f-9f0c42d8db10.png)
 
 
