@@ -8,10 +8,10 @@ This app also has other feature that allow you to view the items on different ca
 With themes related to open-source project using **Linode** and the environment in general, deploying an app to [Linode Kubernets](https://cloud.linode.com/linodes) cluster and leveraging [ArgoCD](https://argo-cd.readthedocs.io/) came to my mind. Although they are typically exciting road trips, sometimes there are moments when you aren't sure what to do and need some inspiration.
 Inspired by the Kubernetes and DevOps tool i.e. [Linode Kubernetes Engine](https://cloud.linode.com/linodes)(LKE), Nginx Ingress Controller and CD pipeline provided by [ArgoCD](https://argo-cd.readthedocs.io/) tool, and became excited to create a web application on top of this tool deploying to LKE cluster.
 
-## 🤔How we built it?
+## 🤔 How we built it?
 Frontend built using React and Bootstrap CSS, deployed to LKE Cluster, Overpass for querying food item API (currently) Two stages docker images built under the hood of yarn install and nginx server CD pipeline using ArgoCD platform.
 
-### ⚒️Workflow Diagram
+### ⚒️ Workflow Diagram
 
 ![linode-argo](https://user-images.githubusercontent.com/11625672/176987650-a25cb345-c992-49f7-823d-d2082a2898ac.png)
 
