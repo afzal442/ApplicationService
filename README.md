@@ -1,3 +1,5 @@
+![issue](https://img.shields.io/github/issues/afzal442/RestuarantApp?style=plastic) ![fork](https://img.shields.io/github/forks/afzal442/RestuarantApp) ![star](https://img.shields.io/github/stars/afzal442/RestuarantApp) ![License](https://img.shields.io/github/license/afzal442/RestuarantApp) ![Contributor](https://img.shields.io/github/contributors/afzal442/RestuarantApp)
+
 # Restaurant App
 This contains Web App for Taj Mahal Restaurant service. **Restaurant App** which allows you to provide services based on the online resource and to book orders available on the menu.
 This app also has other feature that allow you to view the items on different categories using the search bar, choose the items and buy it based on the availability.
