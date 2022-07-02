@@ -8,6 +8,10 @@ Inspired by the Kubernetes and DevOps tool i.e. Linode Kubernetes Engine(LKE) an
 ## 🤔How we built it?
 Frontend built using React and Bootstrap CSS, deployed to LKE Cluster, Overpass for querying food item API (currently) Two stages docker images built under the hood of yarn install and nginx server CD pipeline using ArgoCD platform.
 
+### Workflow Diagram
+
+![linode-argo](https://user-images.githubusercontent.com/11625672/176987650-a25cb345-c992-49f7-823d-d2082a2898ac.png)
+
 Let's run our app using `yarn start` before that make sure you have installed the dependencies using `yarn install`. The host machine would land you on the home page of Taj Mahal Restaurant App as simple as that.
 
 ![h1](https://user-images.githubusercontent.com/11625672/176757806-350ef4c7-a2ee-46cf-9540-403dbc556592.png)
