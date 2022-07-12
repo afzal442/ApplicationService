@@ -40,7 +40,7 @@ const Footer = () => (
 
     <div className="footer__copyright">
       <p className="p__opensans">2022 <b style={{ color: "golden", fontSize: "1rem" }}>Taj Mahal Restaurant</b> All Rights reserved.</p>
-      <p className='p__opensans'>Made with <b style={{ color: "darkgreen", fontSize: "1.5rem" }}>Linode</b> ❤️ <b style={{ color: "blue", fontSize: "1.5rem" }}>Hashnode</b></p>
+      <p className='p__opensans'>Made for <b style={{ color: "darkgreen", fontSize: "1.5rem" }}><a href="https://www.linode.com/">Linode</a></b> ❤️ <b style={{ color: "blue", fontSize: "1.5rem" }}><a href="https://hashnode.com/">Hashnode</a></b></p>
     </div>
 
   </div>
