@@ -1,4 +1,6 @@
 components:
-    - "src/components/*"
+    - "src/components/**/*"
+container:
+    - "src/container/**/*"
  ci:
     -".github/**/*"
