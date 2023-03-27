@@ -1,28 +1,40 @@
+// pipeline {
+//     agent any
+//     stages {
+//         stage('Build') {
+//             steps {
+//                 echo "Building.."
+//                 sh '''
+//                 echo "doing build stuff.."
+//                 '''
+//             }
+//         }
+//         stage('Test') {
+//             steps {
+//                 echo "Testing.."
+//                 sh '''
+//                 echo "doing test stuff.."
+//                 '''
+//             }
+//         }
+//         stage('Deliver') {
+//             steps {
+//                 echo 'Deliver....'
+//                 sh '''
+//                 echo "doing delivery stuff.."
+//                 '''
+//             }
+//         }
+//     }
+// }
+
 pipeline {
-    agent any
+    agent { dockerfile true }
     stages {
-        stage('Build') {
-            steps {
-                echo "Building.."
-                sh '''
-                echo "doing build stuff.."
-                '''
-            }
-        }
         stage('Test') {
             steps {
-                echo "Testing.."
-                sh '''
-                echo "doing test stuff.."
-                '''
-            }
-        }
-        stage('Deliver') {
-            steps {
-                echo 'Deliver....'
-                sh '''
-                echo "doing delivery stuff.."
-                '''
+                sh 'node --version'
+                sh 'svn --version'
             }
         }
     }
