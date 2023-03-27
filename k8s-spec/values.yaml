@@ -1,9 +1,0 @@
-namespace: myc
-
-appName: restuarant-app
-
-port: 80
-
-image:
-  name: afzal442/restaurant-app
-  tag: v5
