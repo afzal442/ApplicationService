@@ -9,7 +9,7 @@ spec:
       http:
         paths:
           - pathType: Prefix
-            path: /    
+            path: /about
             backend:
               service:
                 name: restuarant-service
