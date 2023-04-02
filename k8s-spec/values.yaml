@@ -2,7 +2,7 @@ namespace: myc
 
 appName: restuarant-app
 
-port: 80
+port: 8080
 
 image:
   name: afzal442/restaurant-app
