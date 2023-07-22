@@ -15,7 +15,7 @@ const Footer = () => (
         <p className="p__opensans">Plot-456, Mumbai, MI 500673, IND</p>
         <p className="p__opensans">+33 212-344-1230</p>
         <p className="p__opensans">+33 212-555-1230</p>
-        <p style={{ color: "whitesmoke" }}>email: customserv@tajrestaurant.com</p>
+        <p style={{ color: "whitesmoke" }}>email: customservice@tajrestaurant.com</p>
       </div>
 
       <div className="app__footer-links_logo">
@@ -40,7 +40,7 @@ const Footer = () => (
 
     <div className="footer__copyright">
       <p className="p__opensans">2022 <b style={{ color: "golden", fontSize: "1rem" }}>Taj Mahal Restaurant</b> All Rights reserved.</p>
-      <p className='p__opensans'>Made with <b style={{ color: "darkgreen", fontSize: "1.5rem" }}>Linode</b> ❤️ <b style={{ color: "blue", fontSize: "1.5rem" }}>Hashnode</b></p>
+      <p className='p__opensans'>Made for <b style={{ color: "darkgreen", fontSize: "1.5rem" }}><a href="https://www.linode.com/">Linode</a></b> ❤️ <b style={{ color: "blue", fontSize: "1.5rem" }}><a href="https://hashnode.com/">Hashnode</a></b></p>
     </div>
 
   </div>
