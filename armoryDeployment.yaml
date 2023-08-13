@@ -1,0 +1,23 @@
+version: v1
+kind: kubernetes
+application: res-app
+
+targets:
+  staging:
+    account: staging
+    namespace: myc
+    strategy: myCanary
+
+manifests:
+  - path: k8s-spec
+
+strategies:
+  myCanary:
+    canary:
+      steps:
+        - setWeight:
+            weight: 50
+        - pause:
+            untilApproved: true
+        - setWeight:
+            weight: 100
