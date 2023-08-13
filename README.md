@@ -4,7 +4,7 @@
 This contains Web App for Taj Mahal Restaurant service. **Restaurant App** which allows you to provide services based on the online resource and to book orders available on the menu.
 This app also has other feature that allow you to view the items on different categories using the search bar, choose the items and buy it based on the availability.
 
-## 🔥 Inspiration !
+## 🔥 Inspiration
 With themes related to open-source project using **Linode** and the environment in general, deploying an app to [Linode Kubernets](https://cloud.linode.com/linodes) cluster and leveraging [ArgoCD](https://argo-cd.readthedocs.io/) came to my mind. Although they are typically exciting road trips, sometimes there are moments when you aren't sure what to do and need some inspiration.
 Inspired by the Kubernetes and DevOps tool i.e. [Linode Kubernetes Engine](https://cloud.linode.com/linodes)(LKE), Nginx Ingress Controller and CD pipeline provided by [ArgoCD](https://argo-cd.readthedocs.io/) tool, and became excited to create a web application on top of this tool deploying to LKE cluster.
 
