@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: restuarant-deploy
+  namespace: myc
+  labels:
+    app: {{ .Values.appName }}
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: {{ .Values.appName }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.appName }}
+    spec:
+      containers:
+      - name: {{ .Values.appName }}
+        image: "{{ .Values.image.name }}:{{ .Values.image.tag }}"
+        ports:
+        - containerPort: {{ .Values.port }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: restuarant-service
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: {{ .Values.appName }}
+spec:
+  type: LoadBalancer
+  selector:
+    app: {{ .Values.appName }}
+  ports:
+    - name: http
+      protocol: TCP
+      port: {{ .Values.port }}
+      targetPort: {{ .Values.port }}
+  sessionAffinity: None
