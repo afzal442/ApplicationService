@@ -9,7 +9,7 @@ targets:
     strategy: myCanary
 
 manifests:
-  - path: k8s-spec
+  - path: k8s-spc
 
 strategies:
   myCanary:

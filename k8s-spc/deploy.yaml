@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: restuarant-deploy
+  namespace: myc
+  labels:
+    app: restuarant-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: restuarant-app
+  template:
+    metadata:
+      labels:
+        app: restuarant-app
+    spec:
+      containers:
+      - name: restuarant-app
+        image: "afzal442/restaurant-app:v5"
+        ports:
+        - containerPort: 80
